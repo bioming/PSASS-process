@@ -25,6 +25,7 @@ def get_modules_info():
                                                       variables.modules_options.mate: False,
                                                       variables.modules_options.pairwise: False,
                                                       variables.modules_options.options: [variables.submit_options.name,
+                                                                                          variables.submit_options.mem,
                                                                                           variables.submit_options.output,
                                                                                           variables.submit_options.error],
                                                       variables.modules_options.dependencies: None,
